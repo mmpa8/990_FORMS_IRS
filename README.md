@@ -8,4 +8,6 @@ Data such as Employer Identification Number (EIN), Object_ID (ID for the 990 for
 
 ## AWS IRS 990 Filings Explorer:
 [This IRS 990 Filings Explorer] allows us to search for electronically filed Form 990s hosted on Amazon S3. Amazon has made this essential resource available, but they have not provided an easy way to search the records. This very simple site lets you search for these records by the organization's name, and provides a link to the S3-hosted XML file.
+
+
 [This IRS 990 Filings Explorer]:http://irs-990-explorer.chrisgherbert.com/#aws-index-files
