@@ -27,7 +27,8 @@ This is how the data from the AWS Filing Explorer looks like (3 rows)
 #### What is the Object ID?
 
 The object ID represents the unique identifier of the 990 form for each organization. We will use this unique identifier number to access 990 forms in XML format from 2021.
-Note that `DLN` & `Object_ID` are expresed in scientific notation. It is recommended to use a file editor such as Sublime Text to access the exact values for these columns
+
+**Note_** that `DLN` & `Object_ID` are expresed in scientific notation. It is recommended to use a file editor such as Sublime Text to access the exact values for these columns
 Alternatively, changing the cells' format from integer to text will also work. 
 
 [This IRS 990 Filings Explorer]:http://irs-990-explorer.chrisgherbert.com/#aws-index-files
