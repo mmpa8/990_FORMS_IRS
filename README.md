@@ -18,7 +18,7 @@ The data used in this project is specifically extracted from the CSV 2021 file o
 This is how the data from the AWS Filing Explorer looks like (3 rows)
 
 | RETURN_ID   | FILING_TYPE   | EIN   | TAX_PERIOD   | SUB_DATE   | TAXPAYER_NAME   | RETURN_TYPE   | DLN   | OBJECT_ID   | 
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| ------------- | -------------: |:-------------: | :-------------: | :-------------: | -------------: | ------------- | ------------- | ------------- |
 |17606342      | EFILE   | 452772761    | 201906   | 1/21/2021 10:02:51 AM   | CAMDENS CHARTER SCHOOL NETWORK INC   | 990   | 9.349307e+13   | 2.020107e+17
 |17606343      | EFILE   | 237061115    | 201906   | 1/21/2021 10:02:51 AM   | JACKSON STATE UNIVERSITY DEVELOPMENT FOUNDATION INC   | 990   | 9.349307e+13   | 2.020107e+17
 |17606347      | EFILE   | 344427516    | 201904   | 1/21/2021 10:02:52 AM   | TIFFIN UNIVERSITY   | 990   | 9.349307e+13   | 2.020107e+17
