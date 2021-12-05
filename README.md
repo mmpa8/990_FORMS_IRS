@@ -1,8 +1,8 @@
-## Trustees and Boards' Members Names for Education Institions. 
+# Trustees and Boards' Members Names for Education Institions. 
  
 In this repository, we will scap names of Trustees and Boards' members for non-profit education instituions in the U.S. The data is directly gatehred from the forms 990s collected by the Internal Revenue Service (IRS).  
 
-### XML Files of 990 Forms
+## XML Files of 990 Forms
 
 Data such as Employer Identification Number (EIN), Object_ID (ID for the 990 form), and institutions general infomration are hosted and extracted from Amazon S3. 
 ## AWS IRS 990 Filings Explorer: 
