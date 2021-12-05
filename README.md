@@ -31,5 +31,23 @@ The object ID represents the unique identifier of the 990 form for each organiza
 **Note** that columns `DLN` & `Object_ID` are expresed in scientific notation. It is recommended to use a file editor such as Sublime Text to access the exact values for these columns.
 Alternatively, changing the cells' format from integer to text will also work. 
 
+## IRSx - 990 XML Reader
+
+IRSx structures, standardizes, and documents the raw 990 tax filings released as xml documents. 
+Details for its installations, methodology and limitations can be found in its [original repository].
+
+
+
+As explained in its quick start tutorial, IRSx basically standarizes data from 990 forms formatted in XML. `Object_ID` is the key we use to access these unique documents for each organization's fillings by year. 
+
+For example, `Object_ID = 202041969349302764` will return the raw XML file for `HAWAII PACIFIC UNIVERSITY` and its latest filling for the 990 form. 
+
+
+`https://s3.amazonaws.com/irs-form-990/**202041969349302764**_public.xml?_ga=2.237125637.408134291.1634807070-1074190973.1633356279`
+
+
+
+
 [This IRS 990 Filings Explorer]:http://irs-990-explorer.chrisgherbert.com/#aws-index-files
 [From IRS website on 990 form]:https://www.irs.gov/charities-non-profits/form-990-resources-and-tools
+[original repository]:  https://github.com/jsfenfen/990-xml-reader
